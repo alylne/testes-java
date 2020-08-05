@@ -1,0 +1,24 @@
+package programavetor;
+
+public class ProgramaVetor {
+
+	public static void main(String[] args) {
+		
+	int n[] = {1,3,5};
+	for(int c=0; c<3; c++) {
+		System.out.println("Na posição " + c + " temos o valor " + n[c]);
+	}
+}
+}
+-------------------------------------------------------
+
+	public static void main(String[] args) {
+		
+	int n[] = {1,3,5};
+	System.out.println("Total de casas de N: " + n.length);
+	for(int c=0; c<n.length; c++) {
+		System.out.println("Na posição " + c + " temos o valor " + n[c]);
+	}
+}
+}
+

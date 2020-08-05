@@ -1,0 +1,15 @@
+package programavetor;
+import java.util.Arrays;
+
+public class ProgramaVetor {
+
+		public static void main(String[] args) {
+					
+		int num[] = new int[20];
+		Arrays.fill(num, 2);
+		//arrays.fill define os valores para os vetores
+		for(int valor:num) {
+			System.out.print(valor + " ");
+		}
+		}
+	}

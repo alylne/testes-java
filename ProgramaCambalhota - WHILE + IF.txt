@@ -1,0 +1,21 @@
+package programacambalhota;
+
+public class ProgramaCambalhota {
+
+	public static void main(String[] args) {
+		
+int cc = 0;
+
+while (cc<10) {
+	cc++;
+	//enquanto a cambalhota for menor que 10 ela repete
+	if(cc==5 || cc==7 || cc==9) {
+		continue;
+	//na cambalhota 5, 7 e 9 nao mostra na tela
+		}
+	System.out.println("Cambalhota " + cc);
+	
+	}
+}
+}
+

@@ -1,0 +1,17 @@
+package programacambalhota;
+
+public class ProgramaCambalhota {
+
+	public static void main(String[] args) {
+		
+int cc = 1;
+
+while (cc<=4) {
+	//enquanto a cambalhota for menor que 4 ela repete
+
+	System.out.println("Cambalhota " + cc);
+	cc++;
+	}
+}
+}
+

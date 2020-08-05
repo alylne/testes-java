@@ -1,0 +1,16 @@
+package programavetor;
+
+public class ProgramaVetorMeses {
+
+	public static void main(String[] args) {
+		
+	String mes[] = {"Jan", "Fev", "Mar", "Abr", "Mai", 
+	"Jun", "Jul", "Ago", "Set", "Out", "Nov", "Dez"};
+	int dias[] = {31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
+	int i;
+	
+	for (i = 0; i< mes.length; i++) {
+		System.out.println("O mês "+ mes[i] + " tem " + dias[i] + " dias ao todo ");
+	}
+	}
+}

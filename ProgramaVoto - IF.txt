@@ -1,0 +1,27 @@
+package programavoto;
+
+import java.util.Scanner;
+
+public class ProgramaVoto {
+
+	public static void main(String[] args) {
+		
+Scanner teclado = new Scanner(System.in);
+
+System.out.println("Digite o ano em que você nasceu: ");
+int nasc = teclado.nextInt();
+int i = 2020-nasc;
+System.out.println("Sua idade é: " + i);
+
+if (i<16) {
+	System.out.println("Não Vota");
+} else {
+	if ((i >= 16 && i<18) || (i>70)) {
+		System.out.println("Opicional");
+	}else {
+		System.out.println("Obrigatório");
+}
+
+}
+}
+}

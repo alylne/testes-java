@@ -1,0 +1,19 @@
+package programacambalhota;
+
+public class ProgramaCambalhota {
+
+	public static void main(String[] args) {
+		
+	for (int cc = 0; cc<4; cc++ ) {
+		System.out.println("Cambalhota");
+	}
+	/* é igual a:
+	 	int cc = 0;
+		while (cc<4) {
+		System.out.println("Cambalhota");
+		cc++
+		}
+	*/
+	
+	}
+}

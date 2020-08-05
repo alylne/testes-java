@@ -1,0 +1,16 @@
+package programavetor;
+import java.util.Arrays;
+
+public class ProgramaVetor {
+
+		public static void main(String[] args) {
+			
+		double a[] = {3.5, 2.75, 9, -4,5};
+		Arrays.sort(a);
+\\arrays.sort coloca os vetores em ordem
+		for(double valor: a) {
+			System.out.println(valor + " ");
+		}
+	}
+	}
+
